@@ -25,7 +25,7 @@
     "static"
   ],
   "scripts": {
-    "start": "node main.js",
+    "start": "node init && node main.js",
     "test": "mocha --recursive --bail"
   }
 }
